@@ -1,0 +1,25 @@
+{
+  "name": "cordova-curlrequest",
+  "version": "1.0.0",
+  "description": "native implementation for curl request",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kgrycuk/cordova-curlrequest.git"
+  },
+  "cordova": {
+    "id": "cordova-curlrequest",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "author": "kgb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kgrycuk/cordova-curlrequest/issues"
+  },
+  "homepage": "https://github.com/kgrycuk/cordova-curlrequest#readme"
+}
