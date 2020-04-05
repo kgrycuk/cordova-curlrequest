@@ -21,7 +21,8 @@
 
     [request setURL:url];
     [request setHTTPMethod:@"GET"];
-    [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
+    [request setValue:@"*/*" forHTTPHeaderField:@"Accept"];
+    [request setValue:@"curl/7.54.0" forHTTPHeaderField:@"User-Agent"];
 
     NSError *error;
     NSURLResponse *response;

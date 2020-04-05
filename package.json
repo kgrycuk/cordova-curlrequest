@@ -1,6 +1,6 @@
 {
   "name": "cordova-curlrequest",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "native implementation for curl request",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
